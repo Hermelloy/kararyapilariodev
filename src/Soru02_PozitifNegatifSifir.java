@@ -5,15 +5,17 @@ public class Soru02_PozitifNegatifSifir {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // TODO: Girdileri alın
-
-        // TODO: Girdileri kontrol edin (geçersiz giriş / sınır durumları)
-
-        // TODO: Karar yapısını yazın
-
-        // TODO: Sonucu ekrana yazdırın
+    Scanner sc = new Scanner(System.in);
+     System.out.println("sayi giriniz");
+     int sayi1 = sc.nextInt();
+     if (sayi1>0) {System.out.println("sayi pozitiftir");
+     }
+     else if (sayi1==0) {System.out.println("sayi notrdur");
+     }
+     else if (sayi1<0) {System.out.println("sayi negatiftir.");
+     
 
         scanner.close();
     }
 }
+}    
