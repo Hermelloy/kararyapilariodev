@@ -16,7 +16,7 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| 7|pztf | pztf|
+| 7|pozitif | pozitif|
 |0 |notr |notr |
 
 ## Soru 3: İki Sayının Büyüğü
@@ -44,7 +44,7 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| 2026|degildir |dwgildir |
+| 2026|degildir |degildir |
 |2024 |artik yildir | artik yildir|
 
 ## Soru 7: Bölünebilme Kontrolü
