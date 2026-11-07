@@ -14,9 +14,12 @@ public class Soru01_TekMiCift {
            System.out.println("girdiginiz sayi cifttir");
        }
        else System.out.println("girdiginiz sayi tek");
+
+        
+                scanner.close();
     }
 }
 
-        scanner.close();
+
     
 
