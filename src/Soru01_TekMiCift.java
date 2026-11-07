@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Soru01_TekMiCift {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // TODO: Girdileri alın
             System.out.println("sayi giriniz");
