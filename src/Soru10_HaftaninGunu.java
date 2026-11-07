@@ -5,7 +5,7 @@ public class Soru10_HaftaninGunu {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+//switch kodunu bilmedigim icin yapamadim
         // TODO: Girdileri alın
 
         // TODO: Girdileri kontrol edin (geçersiz giriş / sınır durumları)
