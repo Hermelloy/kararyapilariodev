@@ -5,13 +5,13 @@ public class Soru09_UcgenTuru {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-     System.out.println("ilk kenari girin");
+     System.out.println("en kucuk kenari girin");
      int sayi1 = sc.nextInt();
-    System.out.println("ikinci kenari girin");
+    System.out.println("ortanca kenari girin");
      int sayi2 = sc.nextInt();
-     System.out.println("ucuncu kenari girin");
+     System.out.println("en buyuk kenari girin");
      int sayi3 = sc.nextInt();
-     
+     if (sayi3-sayi2<sayi1) {
       if (sayi1==sayi2 && sayi2==sayi3){System.out.println("esitkenar ucgen");
      }  else if (sayi1!=sayi2 && sayi2==sayi3) {System.out.println("ikizkenar ucgen");
      } else if (sayi1!=sayi2 && sayi2!=sayi3 && sayi1!=sayi3) {
@@ -21,8 +21,8 @@ public class Soru09_UcgenTuru {
      
      
      
-        scanner.close();
     
+}
 }
 }
 }
