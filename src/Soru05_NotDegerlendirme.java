@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Soru05_NotDegerlendirme {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
  System.out.println("notunuzu girin");
      int not = sc.nextInt();
      if (not>100 && not<0) {System.out.println("gecersiz not girdiniz");
