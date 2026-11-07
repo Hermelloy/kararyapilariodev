@@ -7,7 +7,7 @@ public class Soru05_NotDegerlendirme {
         Scanner scanner = new Scanner(System.in);
  System.out.println("notunuzu girin");
      int not = sc.nextInt();
-     if (not>100 && not<0) {System.out.println("gecersiz not girdiniz);");
+     if (not>100 && not<0) {System.out.println("gecersiz not girdiniz");
      } else if (not<=100 && 90<=not) {System.out.println("notunuz AA`dıi");
      } else if (not>=80 && not<90) {System.out.println("notunuz BA`dir");
      } else if (not<80 && not>=70) {System.out.println("notunuz BB`dir");
