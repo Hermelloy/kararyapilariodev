@@ -72,5 +72,5 @@ Her soru için en az 2 test yazın.
 
 | Girdi | Beklenen çıktı | Programın çıktısı |
 |---|---|---|
-| | | |
-| | | |
+| ?|? |? |
+|? |? |? |
