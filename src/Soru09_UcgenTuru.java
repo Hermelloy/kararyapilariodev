@@ -19,7 +19,7 @@ public class Soru09_UcgenTuru {
      } else {System.out.println("gecersiz islem girisi");
     
      
-     
+     scanner.close();
      
     
 }
