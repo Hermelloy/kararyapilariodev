@@ -7,13 +7,16 @@ public class Soru01_TekMiCift {
         Scanner scanner = new Scanner(System.in);
 
         // TODO: Girdileri alın
-
+            System.out.println("sayi giriniz");
+        int sayi1 = sc.nextInt();
         // TODO: Girdileri kontrol edin (geçersiz giriş / sınır durumları)
-
-        // TODO: Karar yapısını yazın
-
-        // TODO: Sonucu ekrana yazdırın
-
-        scanner.close();
+       if (sayi1%2==0) {
+           System.out.println("girdiginiz sayi cifttir");
+       }
+       else System.out.println("girdiginiz sayi tek");
     }
 }
+
+        scanner.close();
+    
+
